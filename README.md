@@ -19,7 +19,7 @@ Every day is assigned a `gym_visit_type`.  Here are the values.
 
 And here are the results:
 
-![image](output\Sample-Ouput.png)
+![image](output/Sample-Ouput.png)
 
 You can view the raw data [here](db/gym-visits.csv).
 
