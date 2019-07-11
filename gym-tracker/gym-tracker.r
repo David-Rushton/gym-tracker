@@ -45,8 +45,10 @@
 
 
     # Graph: Days by type.
+    # Saturdays and Sundays are included in the raw data, but the gym isn't open.
+    gym_visits_weekdays <- gym_visits[gym_visits$day_of_week < 6, ]
     barplot(
-        table(gym_visits$gym_visit_type_description),
+        table(gym_visits_weekdays$gym_visit_type_description),
         main="Days by Activity",
         ylab = "Frequency"
     )
