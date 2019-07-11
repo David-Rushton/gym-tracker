@@ -2,9 +2,11 @@
 
 ## Introduction
 
-At the start of the year I began tracking my gym visits.  I have been looking for an excuse to learn [R](https://en.wikipedia.org/wiki/R_(programming_language)), and building my own data set seemed like a good first step.
+At the start of the year I began tracking my gym visits.  I had been looking for an excuse to learn [R](https://en.wikipedia.org/wiki/R_(programming_language)), and building my own data set seemed like a good first step.  Armed with a copy of the excellent [R in Action](https://smile.amazon.co.uk/Action-Data-Analysis-Graphics/dp/1617291382/ref=sr_1_1?keywords=r+in+action&qid=1562833955&s=gateway&sr=8-1) this is my data journey.
 
-The gym is located in one our offices.  I try my best to go every morning, but as you will see from the data this doesn't always happen.  I'm particularly bad on Mondays, which is just insight I gained from this project.
+## Background
+
+The gym is located in one our offices.  I try my best to go every morning, but as you will see from the data this doesn't always happen.  I'm particularly bad on Mondays, which is an insight I gained from this project.
 
 Every day is assigned a `gym_visit_type`.  Here are the values.
 
@@ -14,6 +16,10 @@ Every day is assigned a `gym_visit_type`.  Here are the values.
 | 1   | Workout | Yippee!  I found my willpower.                                   |
 | 2   | Lazy    | I went to work, but I didn't workout.  :(                        |
 | 3   | Holiday | I had the day off                                                |
+
+And here are the results:
+
+![image](output\Sample-Ouput.png)
 
 You can view the raw data [here](db/gym-visits.csv).
 
